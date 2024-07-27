@@ -4,21 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Confused Digital</title>
+  
   <link rel="stylesheet" href="index.css">
-  <script src="https://cdn.tailwindcss.com"></script>
+  
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">
-                
                 <a href="#home" class="logo"><img src="Grey Aesthetic Y2K Logo (Presentation) (1080 × 1080 px).png"></a>
             </div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="contact_us.html">Contact</a></li>
                 
             </ul>
         </nav>
@@ -95,7 +95,7 @@
     <div class="container">
         <div class="content">
             <div class="text">
-                <h2>About US</h2>
+                <h2 class="bg-slate-400">About US </h2>
                 <p>At Confused Web, we’re more than a digital agency; we’re your digital allies on the journey to success. With a passion for innovation and a commitment to excellence, we harness the latest technologies to transform your digital vision into reality.</p>
                 
                 <h2 class="bg-slate-500">Our Mission</h2>
@@ -111,22 +111,66 @@
     </div>
 </section>
 
-    <section id="contact" class="contact">
-        <h2 class="bg-slate-800">Contact Us</h2>
-        <form id="contactForm">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-    </section>
 
-    <footer>
-        <p>&copy; 2024 Confused Digital. All rights reserved.</p>
-    </footer>
+<main>
+    <div class="contact-container">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</main>
+
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-info">
+            <h2>Contact Us</h2>
+            <p>1234 Street Name, City, Country</p>
+            <p>Email: info@example.com</p>
+            <p>Phone: +1 (234) 567-890</p>
+        </div>
+        <div class="footer-services-">
+            <h2>Services</h2>
+            <p>Desgin</p>
+            <p>Development</p>
+            <p>Marketing</p>
+            <p>Content Creation</p>
+            <p>Social Media Marketing</p>
+            <p>Cyber Security</p>
+        </div>
+      
+        <div class="footer-social">
+            <h2>Follow Us</h2>
+            <a href="#" class="social-icon"><img src="icons8-facebook-50.png" alt="Facebook"></a>
+            <a href="#" class="social-icon"><img src="x.png" alt="Twitter"></a>
+            <a href="#" class="social-icon"><img src="icons8-instagram-48.png" alt="Instagram"></a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </div>
+</footer>
 
     <script src="script.js"></script>
     
